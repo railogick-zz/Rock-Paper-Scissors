@@ -1,0 +1,49 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>People love to see their results as they're running to their goal.<br>
+So, let's write a rating system:</p>
+
+<p>When the game starts, the program should read ratings from a file named <code>rating.txt</code> and ask the user for the name.<br>
+You can see the file format below. It's just name and a score divided by a single space.</p>
+
+<pre><code class="language-no-highlight">Tim 350
+Jane 200
+Alex 400</code></pre>
+
+<p>The program should print user rating when the user enters <code>!rating</code>. For example, if your rating is 0 then the program should print:</p>
+
+<pre><code class="language-no-highlight">Your rating: 0</code></pre>
+
+<p>Make it so for every game you add 50 points to the player for every draw and 100 for every win, and nothing for losing.</p>
+
+<p>At the start of the game, the player should enter his/her name. Make sure that the name does not contain spaces! After that, the program should welcome the player and start playing with him.</p>
+
+<h2 style="text-align: center;">Examples</h2>
+
+<p><strong>Example 1</strong></p>
+
+<pre><code class="language-no-highlight">Enter your name: Tim
+Hello, Tim
+!rating
+Your rating: 350
+rock
+Sorry, but computer chose paper
+rock
+Well done. Computer chose scissors and failed
+!rating
+Your rating: 450
+!exit
+Bye!</code></pre>
+
+<p><strong>Example 2</strong></p>
+
+<pre><code class="language-no-highlight">Enter your name: Tim
+Hello, Tim
+!rating
+Your rating: 450
+scissors
+There is a draw (scissors)
+!rating
+Your rating: 500
+!exit
+Bye!</code></pre>

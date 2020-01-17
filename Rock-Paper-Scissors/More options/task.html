@@ -1,0 +1,54 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>How about some brand new rules? The original game has a fairly small choice of options.</p>
+
+<p>Extended rules are decreasing the probability of drawing, so it should be really cool to have it.<br>
+Now, your program should accept alternative lists of options, like this:</p>
+
+<p style="text-align: center;"><img alt="" height="546" src="https://ucarecdn.com/eb3f7a5b-98ea-4b11-a3b7-4797ee774258/" width="538"></p>
+
+<p> </p>
+
+<p>Also, there is a very popular version of this game called Rock, Paper, Scissors, Lizard, Spock.</p>
+
+<p>Let's create a more abstract version of the game, where the user first chooses the options that will be used in the game. Thus, the user will be able to play in the original version, and in the version of 5 options, and in the version of 15 options. Note that the number of options must be odd, otherwise you will not be able to create honest rules. One option should be worse than half of the options, and better than the other half of the options, and equal to itself.</p>
+
+<p>After entering the name, the user should provide a list of options separated by a comma. </p>
+
+<p>If user lefts options unfilled, use <code>rock,paper,scissors</code>.</p>
+
+<h2 style="text-align: center;">Example</h2>
+
+<p><strong>Example 1:</strong></p>
+
+<pre><code class="language-no-highlight">Enter your name: Tim
+Hello, Tim
+rock,gun,lightning,devil,dragon,water,air,paper,sponge,wolf,tree,human,snake,scissors,fire
+Okay, let's start
+rock
+Sorry, but computer chose air
+!rating
+Your rating: 0
+rock
+Well done. Computer chose sponge and failed
+!rating
+Your rating: 100
+!exit
+Bye!</code></pre>
+
+<p><strong>Example 2: </strong></p>
+
+<pre><code class="language-no-highlight">Enter your name: Tim
+Hello, Tim
+
+Okay, let's start
+rock
+Well done. Computer chose scissors and failed
+paper
+Well done. Computer chose rock and failed
+paper
+There is a draw (paper)
+scissors
+Sorry, but computer chose rock
+!exit
+Bye!</code></pre>
